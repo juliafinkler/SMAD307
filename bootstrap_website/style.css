@@ -1,0 +1,87 @@
+/* ------------------------------
+   GLOBAL STYLES
+------------------------------ */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FAF4EC; /* Ivory background */
+  color: #23140C; /* Espresso text */
+}
+
+h1, h2, h4 {
+  font-weight: 600;
+  color: #4A2E19; /* Mahogany headings */
+}
+
+/* ------------------------------
+   NAVBAR
+------------------------------ */
+
+.navbar {
+  background-color: #4A2E19 !important; /* Mahogany */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #CB9865 !important; /* Saddle Tan */
+}
+
+.nav-link {
+  color: #FAF4EC !important; /* Ivory text */
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #E0902C !important; /* Amber Orange highlight */
+}
+
+/* ------------------------------
+   BUTTONS
+------------------------------ */
+
+.btn-primary {
+  background-color: #E0902C; /* Amber Orange */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #CB9865; /* Saddle Tan */
+  color: #23140C;
+}
+
+/* ------------------------------
+   HERO SECTIONS
+------------------------------ */
+
+.bg-light {
+  background-color: #FAF4EC !important; /* Soft ivory instead of gray */
+  color: #4A2E19;
+}
+
+.hero-text {
+  color: #4A2E19;
+}
+
+/* ------------------------------
+   IMAGES & CARDS
+------------------------------ */
+
+img {
+  border-radius: 6px;
+}
+
+.card {
+  border: 1px solid #CB9865;
+}
+
+.card-header {
+  background-color: #4A2E19;
+  color: #FAF4EC;
+}
+
+.card-body {
+  background-color: #FFFDF9;
+}
+
+/* ----------------------*
