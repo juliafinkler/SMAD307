@@ -1,0 +1,68 @@
+:root{
+  --purple-dark: #27133a;
+  --purple: #6C3FB7;
+  --purple-light: #B899FF;
+  --blue: #2f5fb5;
+  --blue-light: #A8C6FF;
+  --accent: #7F5CFF;
+  --muted: #f6f7fb;
+}
+
+/* Base */
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, var(--muted), #ffffff 200px);
+  color: #222;
+  margin:0;
+}
+
+/* Navbar */
+.navbar{
+  background: linear-gradient(90deg, var(--purple), var(--blue));
+}
+.navbar .nav-link{ color: rgba(255,255,255,0.95); }
+.navbar .nav-link.active{ font-weight:600; text-decoration: underline; }
+
+/* Hero */
+.hero{
+  min-height: 44vh;
+  background-image: linear-gradient(180deg, rgba(39,19,58,0.65), rgba(47,95,181,0.25)), url('images/pic2.JPEG');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.header-alt{
+  background-image: linear-gradient(180deg, rgba(47,95,181,0.9), rgba(79,60,120,0.9));
+  background-size: cover;
+  background-position: center;
+}
+
+/* Buttons */
+.btn-accent{
+  background: linear-gradient(90deg, var(--accent), var(--purple));
+  color: #fff;
+  border: none;
+}
+.btn-accent:hover{ opacity: 0.95; transform: translateY(-1px); }
+
+/* Cards & sections */
+.card{
+  border: none;
+  border-radius: .6rem;
+}
+.rounded{
+  border-radius: .6rem;
+}
+
+/* Footer */
+footer{ background: linear-gradient(90deg, var(--purple-dark), #141018); }
+
+/* Accessibility / small tweaks */
+img{ display:block; max-width:100%; height:auto; }
+.lead{ color: rgba(255,255,255,0.95); }
+
+/* Responsive tweaks */
+@media(min-width:992px){
+  .hero .display-5{ font-size: 3rem; }
+}
