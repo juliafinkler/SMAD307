@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About JMU Improv — mission, history, and rehearsal info (placeholder)." />
+  <meta name="author" content="Your Name" />
+  <title>About — JMU Improv</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">New & Improv.'d</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="members.html">Current Members</a></li>
+          <li class="nav-item"><a class="nav-link" href="shows.html">Upcoming Shows</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Get Involved</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 text-white header-alt">
+    <div class="container">
+      <h1 class="display-6 fw-bold">About New & Improv.'d</h1>
+      <p class="lead">The oldest and boldest comedy group at JMU!</p>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h2 class="h4">Our Mission</h2>
+          <p>To provide an inclusive space where students can explore and enjoy comedy, build confidence, and entertain the JMU community.</p>
+         
+          <h2 class="h6 mt-3">About Us</h2>
+          <p>New & Improv.'d is James Madison University's first improvisational comedy troupe. Founded in 1999, we have been successfully bringing laughs to the JMU campus ever since! We perform shows on campus, as well as off-campus venues in the greater Harrisonburg area. New & Improv.'d has performed with troupes from other universities, at charity events such as Relay for Life, and has traveled to both North Carolina and Washington D.C for comedy arts festivals. Our troupe also teams up with X2 comedy to perform family-fun comedy shows at local bars and breweries. New & Improv.'d has also partnered with JMU's College of Science and Mathematics to put on the science podcast, Demystifying the Expert.
+          </p>
+        </div>
+       
+
+      <hr class="my-5">
+
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <img src="images/pic1.JPEG" class="img-fluid rounded mb-3" alt="cast photo">
+          
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="images/pic3.JPEG" class="img-fluid rounded mb-3" alt="cast photo">
+         
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="images/pic4.JPEG" class="img-fluid rounded mb-3" alt="cast photo">
+          
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 bg-dark text-white">
+    <div class="container d-flex justify-content-between align-items-center">
+      <small>&copy; <span id="year2"></span> JMU Improv</small>
+      <div>
+        <a class="text-white me-3" href="#">Instagram</a>
+        <a class="text-white me-3" href="#">Facebook</a>
+        <a class="text-white" href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

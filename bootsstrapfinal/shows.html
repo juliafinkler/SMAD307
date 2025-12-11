@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Upcoming shows — placeholder schedule and ticket links." />
+  <meta name="author" content="Your Name" />
+  <title>Upcoming Shows — New & Improv.'d</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">New & Improv.'d</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="members.html">Current Members</a></li>
+          <li class="nav-item"><a class="nav-link active" href="shows.html">Upcoming Shows</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Get Involved</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 text-white header-alt">
+    <div class="container">
+      <h1 class="display-6">Upcoming Shows</h1>
+      <p class="lead">All shows are in TDU at 9 PM!</p>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="list-group">
+        <!-- show item -->
+        <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <div>
+            <h5 class="mb-1">Improv Bowl</h5>
+            <p class="mb-0 small">February 12, 2026 — Taylor Down Under — 9 PM</p>
+          </div>
+          
+        </div>
+
+        <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <div>
+            <h5 class="mb-1">Doppelganger Show</h5>
+            <p class="mb-0 small">February 26, 2026 — Taylor Down Under — 9 PM</p>
+          </div>
+         
+        </div>
+
+        <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <div>
+            <h5 class="mb-1">Quail Egg Show</h5>
+            <p class="mb-0 small">March 12, 2026 — Taylor Down Under — 9 PM</p>
+          </div>
+         
+        </div>
+
+         <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <div>
+            <h5 class="mb-1">Musical Show</h5>
+            <p class="mb-0 small">March 26, 2026 — Taylor Down Under — 9 PM</p>
+          </div>
+         
+        </div>
+
+         <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <div>
+            <h5 class="mb-1">Musical Show</h5>
+            <p class="mb-0 small">April 16, 2026 — Taylor Down Under — 9 PM</p>
+          </div>
+         
+        </div>
+
+         <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <div>
+            <h5 class="mb-1">Senior Show</h5>
+            <p class="mb-0 small">April 30, 2026 — Taylor Down Under — 9 PM</p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 bg-dark text-white">
+    <div class="container d-flex justify-content-between align-items-center">
+      <small>&copy; <span id="year4"></span> JMU Improv</small>
+      <div>
+        <a class="text-white me-3" href="#">Instagram</a>
+        <a class="text-white me-3" href="#">Facebook</a>
+        <a class="text-white" href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
+</body>
+</html>
